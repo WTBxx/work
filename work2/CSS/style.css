@@ -52,7 +52,7 @@ h1 {
     color: #53917b;
     text-align: center;
     margin: 30px auto;
-    font-size: x-large;
+    font-size: 25px;
 }
 
 /*--項目--*/
@@ -60,12 +60,12 @@ h1 {
 .wrap {
     max-width: 960px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
 .item {
-    margin: 10px;
+    width: 32%;
     background-color: #ffffff;
 }
 
@@ -73,14 +73,14 @@ h2 {
     color: #53917b;
     border-left: #53917b solid 7px;
     padding: 0.1em 0.3em;
-    font-size: medium;
+    font-size: 18px;
     margin: 7px 0 0 7px;
 }
 
 p {
     color: #222;
     margin: 7px;
-    font-size: small;
+    font-size: 13px;
     line-height: 1.5;
 }
 
@@ -88,13 +88,13 @@ p {
 
 @media screen and (max-width: 400px) {
     .wrap {
-        max-width: 400px;
         display: block;
     }
 
     .item {
-        margin: 20px 10px;
+        width: 95%;
         background-color: #ffffff;
+        margin: 20px auto;
     }
 
     img {
